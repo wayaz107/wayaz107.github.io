@@ -8,11 +8,11 @@ permalink:  my_sinatra_portfolio_project
 
  The task for this project was to create a CRUD, MVC Sinatra application. We had to build a simple Content Management System (CMS) using the tools we had learned in Mod 2. 
 
-I created a simple travel web application called ***Warda's Travel Diary*** that allows users to keep track of their vacations. My two models were a User and a Travel model, a user model has_many travels and a travel model belongs_to a user.  Users can login, logout, and signup. They can create, edit, view, and delete the trips they created, however they can only do this for their own vacations. A user can't edit or delete another user's vacation. There were a lot of steps involved in creating this project. Here are the steps:
+I created a simple travel web application called ***Warda's Travel Diary*** that allows users to keep track of their vacations. My two models were a User and a Travel model, a user model *has many* travels and a travel model *belongs to* a user.  Users can login, logout, and signup. They can create, edit, view, and delete the trips they created; however they can only do this for their own vacations. A user can't edit or delete another user's vacation. There were a lot of steps involved in creating this project. Here are the steps:
 	
 Step 1: I used the Corneal Template Ruby gem to lay out my basic application structure. After that, I typed bundle install to load all my gems and dependencies. 
 
-Step 2: I created two models: User and Travel that inherited from ActiveRecord. I established the has many and belongs to relationship. 
+Step 2: I created two models: User and Travel that inherited from ActiveRecord. I establised *has many* and *belongs to* for my user and travel model.
 
 Step 3: I created two tables, a user's and travels table using migrations. My user table had first name, last name, username, email and password. My travels table had trip name, itinerary, start date, end date, notes and user id. In order to migrate, I typed rake db:migrate in my terminal. I also created some seed data so I can use that data to play around with my application to make sure it's working.
 
