@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Sinatra Portfolio Project"
-date:       2020-10-20 07:08:16 +0000
+date:       2020-10-20 03:08:17 -0400
 permalink:  my_sinatra_portfolio_project
 ---
 
@@ -18,11 +18,11 @@ Step 3: I created two tables, a user's and travels table using migrations. My us
 
 I used Tux which is an interactive console to make sure my models were working. 
 
-Step 5: I created files inside travel and user views folders. In the travel views folder, i created four erb files: index, new, show, edit.  I created 3 erb files inside users folder: login, signup, and show erb files. Inside the travel index erb, i iterated over a Travel.all array to view all the vacations inside that array. In the travel new erb file, there is a form that is displayed to the user to create a new vacation. The travel show erb displays one vacation based on ID in the url. The edit erb has a form used to update an existing vacation.
+Step 5: I created files inside travel and user views folders. In the travel views folder, i created four erb files: index, new, show, edit.  I created 3 erb files inside users folder: login, signup, and show erb files. Inside the travel index erb, I iterated over a Travel.all array to view all the vacations inside that array. In the travel new erb file, there is a form that is displayed to the user to create a new vacation. The travel show erb displays one vacation based on ID in the url. The edit erb has a form used to update an existing vacation.
 
 In the users folder, the login erb has a login form, the signup erb has a signup form and a show erb displays an individual users information.
 
-Step 6: While I was creating the erb files, I was also working on created my routes in the controller. I created three controllers, Application Controller which inherited from Sinatra Base and the other two controllers Travel Controller and User controller inherited from Application Controller. In config.ru I mounted those controllers. 
+Step 6: While I was creating the erb files, I was also working on creating my routes in the controller. I created three controllers, Application Controller which inherited from Sinatra Base and the other two controllers Travel Controller and User controller inherited from Application Controller. In config.ru I mounted those controllers. 
 
 Step 7: I created helpers method to make sure that certain routes can only be viewed when the user is logged in. I also added flash messages to my application.
 
