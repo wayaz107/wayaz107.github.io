@@ -6,7 +6,7 @@ permalink:  react_redux_project
 ---
 
 
-For my final project at Flatiron School,  I decided to do my app on skincare products. Users can create, view and delete products. 
+For my final project at Flatiron School,  I decided to do my app on skincare products. Users can create and view products as well as leave reviews about the products. 
 
 The project requirements were to use React and Redux for the front-end. For the back-end, we had to use Rails as an API to handle our data. 
 
